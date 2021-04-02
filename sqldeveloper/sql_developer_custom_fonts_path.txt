@@ -1,0 +1,1 @@
+C:\__some_path__\sqldeveloper-20.4.1.407.0006-x64\sqldeveloper\jdk\jre\lib\fonts

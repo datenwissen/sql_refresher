@@ -1,0 +1,103 @@
+;;; 
+Import: Release 11.2.0.2.0 - Production on Wed Mar 24 16:42:42 2021
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Master table "HR"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "HR"."SYS_IMPORT_FULL_01":  hr/******** directory=mdBackup dumpfile=hr.dump 
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+ORA-31684: Object type SEQUENCE:"HR"."LOCATIONS_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR"."DEPARTMENTS_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR"."EMPLOYEES_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR"."JNO_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR"."JNO_SEQ_REV" already exists
+ORA-31684: Object type SEQUENCE:"HR"."BOARD2_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR"."BOARD_SEQ" already exists
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+ORA-39151: Table "HR"."COUNTRIES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."REGIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."LOCATIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."DEPARTMENTS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."JOBS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."EMPLOYEES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."JOB_HISTORY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."SAWON2" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."SAWON3" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."PROFESSOR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."STUDENT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."MYEMP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."MYEMP2" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."ONE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."TWO" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."SAWON" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."RENTAL" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."LOCKERROOM" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."DEPT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."EMP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."TBL1" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."TBL2" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."STU" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."LECTURE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."CAT_A" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."CAT_B" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."CAT_C" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."CUSTOMER" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."GIFT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."SCORE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."HAKJUM" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."DEPARTMENT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."DEPT2" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."EMP2" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."ORDERS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."O_TABLE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."S_ORDER" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."S_REV1" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."BOARD" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."BOARD2" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."TEST01" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."TEST02" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."ADDR1" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."ADDR2" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."EMP10" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."EMP_IDX" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR"."INX_TEST" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "HR"."BIGEMP"                               12.12 MB  300024 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+ORA-31684: Object type PROCEDURE:"HR"."ADD_DEPT" already exists
+ORA-31684: Object type PROCEDURE:"HR"."ADD_JOB_HISTORY" already exists
+ORA-31684: Object type PROCEDURE:"HR"."BOARD3_P" already exists
+ORA-31684: Object type PROCEDURE:"HR"."BRD2_INSERT_P" already exists
+ORA-31684: Object type PROCEDURE:"HR"."BRD2_UPDATE_P" already exists
+ORA-31684: Object type PROCEDURE:"HR"."GETYEAR_P" already exists
+ORA-31684: Object type PROCEDURE:"HR"."HELLO_PL" already exists
+ORA-31684: Object type PROCEDURE:"HR"."HELLO_PL2" already exists
+ORA-31684: Object type PROCEDURE:"HR"."HELLO_SOLDESK" already exists
+ORA-31684: Object type PROCEDURE:"HR"."HELLO_SQL" already exists
+ORA-31684: Object type PROCEDURE:"HR"."RE_SEQ" already exists
+ORA-31684: Object type PROCEDURE:"HR"."SECURE_DML" already exists
+ORA-31684: Object type PROCEDURE:"HR"."STU_SELECT_P" already exists
+ORA-31684: Object type PROCEDURE:"HR"."SUM2_P" already exists
+ORA-31684: Object type PROCEDURE:"HR"."SUMPRINT_P" already exists
+ORA-31684: Object type PROCEDURE:"HR"."TEST_P" already exists
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+ORA-39082: Object type ALTER_PROCEDURE:"HR"."SUMPRINT_P" created with compilation warnings
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+ORA-31684: Object type VIEW:"HR"."EMP_DETAILS_VIEW" already exists
+ORA-31684: Object type VIEW:"HR"."VW_TEST" already exists
+ORA-31684: Object type VIEW:"HR"."V_EMP1" already exists
+ORA-31684: Object type VIEW:"HR"."VIEW1" already exists
+ORA-31684: Object type VIEW:"HR"."VIEW2" already exists
+ORA-31684: Object type VIEW:"HR"."VIEW3" already exists
+ORA-31684: Object type VIEW:"HR"."V_EMP_DEPT" already exists
+ORA-31684: Object type VIEW:"HR"."V_EMP" already exists
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "HR"."SYS_IMPORT_FULL_01" completed with 79 error(s) at 16:42:44

@@ -1,0 +1,52 @@
+port: 3306
+
+user: root
+root pwd: 111111
+
+-- command line
+show databases;
+
+shwo tables;
+
+use mysql;
+
+create database sdtest;
+
+show databases;
+
+use sdtest;
+
+show tables;
+
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+mysql -u root -p111111
+
+-- check autocommit flag
+select @@autocommit; 
+
+set autocommit=0; -- manual commit
+set autocommit=1; -- auto commit
+
+create table board1
+(seq int primary key auto_increment,
+id char(10),
+name char(20));
+
+insert into board1(id,name)
+values ('a1','aa');
+insert into board1(id,name) values ('a2','aa');
+
+select * from board1;
+
+-- order by ___ limit ___
+select * from board1 order by seq desc limit 5;
+
+-- change field name/data type
+alter table board1 change id idnew varchar(20);
+
+alter table board1 add id3rd char(10);
+alter table board1 add id2nd char(10) after seq;
+
+alter table board1 add no2 int first;
+

@@ -1,0 +1,29 @@
+-- #######################
+-- BACKUP
+-- #######################
+
+-- #######################
+-- SYSTEM USER
+-- #######################
+conn system
+
+create or replace directory mdBackup 
+as 'C:\Users\Jieun\OneDrive - tum.de\_lecture notes\db_backup';
+
+grant read,write on directory mdBackup to hr;
+
+-- #######################
+-- run cmd
+-- #######################
+cd C:\Users\Jieun\OneDrive - tum.de\_lecture notes\db_backup
+
+-- #######################
+-- backup as dumpfile
+-- #######################
+expdp hr/123456 directory=mdBackup dumpfile=hr.dump
+
+-- #######################
+-- restore db from dumpfile
+-- #######################
+impdp hr/123456 directory=mdBackup dumpfile=hr.dump
+

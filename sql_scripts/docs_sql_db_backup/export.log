@@ -1,0 +1,76 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Wed Mar 24 16:39:13 2021
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Starting "HR"."SYS_EXPORT_SCHEMA_01":  hr/******** directory=mdBackup dumpfile=hr.dump 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 47.81 MB
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "HR"."BIGEMP"                               12.12 MB  300024 rows
+. . exported "HR"."EMP10"                                12.12 MB  300024 rows
+. . exported "HR"."EMP_IDX"                              12.12 MB  300024 rows
+. . exported "HR"."INX_TEST"                             51.82 KB    6000 rows
+. . exported "HR"."ADDR1"                                6.343 KB       5 rows
+. . exported "HR"."ADDR2"                                6.343 KB       5 rows
+. . exported "HR"."BOARD"                                6.789 KB       6 rows
+. . exported "HR"."BOARD2"                               7.656 KB      18 rows
+. . exported "HR"."CAT_A"                                5.414 KB       2 rows
+. . exported "HR"."CAT_B"                                5.414 KB       2 rows
+. . exported "HR"."CAT_C"                                5.414 KB       2 rows
+. . exported "HR"."COUNTRIES"                            6.367 KB      25 rows
+. . exported "HR"."CUSTOMER"                             6.789 KB      14 rows
+. . exported "HR"."DEPARTMENT"                           6.828 KB      12 rows
+. . exported "HR"."DEPARTMENTS"                          7.109 KB      32 rows
+. . exported "HR"."DEPT"                                 5.929 KB       4 rows
+. . exported "HR"."DEPT2"                                6.835 KB      13 rows
+. . exported "HR"."EMP"                                  8.562 KB      14 rows
+. . exported "HR"."EMP2"                                 10.30 KB      20 rows
+. . exported "HR"."EMPLOYEES"                            16.80 KB     107 rows
+. . exported "HR"."GIFT"                                 6.468 KB      10 rows
+. . exported "HR"."HAKJUM"                               5.898 KB       7 rows
+. . exported "HR"."JOBS"                                 6.992 KB      19 rows
+. . exported "HR"."JOB_HISTORY"                          7.054 KB      10 rows
+. . exported "HR"."LECTURE"                              5.460 KB       4 rows
+. . exported "HR"."LOCATIONS"                            8.273 KB      23 rows
+. . exported "HR"."LOCKERROOM"                           5.414 KB       1 rows
+. . exported "HR"."MYEMP"                                6.882 KB       7 rows
+. . exported "HR"."MYEMP2"                               6.648 KB       1 rows
+. . exported "HR"."ONE"                                  5.015 KB       1 rows
+. . exported "HR"."O_TABLE"                              5.406 KB       2 rows
+. . exported "HR"."PROFESSOR"                            10.11 KB      16 rows
+. . exported "HR"."REGIONS"                              5.476 KB       4 rows
+. . exported "HR"."RENTAL"                               6.210 KB       1 rows
+. . exported "HR"."SAWON"                                5.859 KB       3 rows
+. . exported "HR"."SAWON2"                               5.984 KB       8 rows
+. . exported "HR"."SAWON3"                                8.75 KB      24 rows
+. . exported "HR"."SCORE"                                5.609 KB      20 rows
+. . exported "HR"."STU"                                  5.468 KB       6 rows
+. . exported "HR"."STUDENT"                              11.25 KB      20 rows
+. . exported "HR"."S_ORDER"                              6.820 KB      25 rows
+. . exported "HR"."S_REV1"                               5.187 KB      28 rows
+. . exported "HR"."TBL1"                                 5.460 KB       5 rows
+. . exported "HR"."TBL2"                                 5.460 KB       4 rows
+. . exported "HR"."TEST01"                               6.226 KB       3 rows
+. . exported "HR"."TEST02"                               6.210 KB       2 rows
+. . exported "HR"."ORDERS"                                   0 KB       0 rows
+. . exported "HR"."TWO"                                      0 KB       0 rows
+Master table "HR"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for HR.SYS_EXPORT_SCHEMA_01 is:
+  C:\USERS\JIEUN\ONEDRIVE - TUM.DE\_LECTURE NOTES\DB_BACKUP\HR.DUMP
+Job "HR"."SYS_EXPORT_SCHEMA_01" successfully completed at 16:39:32

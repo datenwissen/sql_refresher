@@ -1,0 +1,56 @@
+--
+select decode(deptno,ndeptno,null,deptno) deptno,
+profno,name
+from (
+	select lag(deptno) over(order by deptno) ndeptno, deptno, profno,name
+from professor
+);
+
+-- to check VIEWs
+select view_name,text,read_only from user_views;
+
+drop view v_emp;
+
+-- ######################
+-- alter table
+-- ######################
+
+create table aaa
+(id number,
+name varchar2(10));
+
+-- rename to
+
+alter table aaa
+rename to bbb;
+
+-- add
+-- (fields)
+
+alter table aaa
+add
+(addr varchar2(50));
+
+-- drop column
+
+alter table aaa
+drop column
+addr;
+
+-- insert into
+insert into aaa values
+(1,'hong','seoul');
+
+-- rename column to
+
+alter table aaa
+rename column addr
+to memo;
+
+-- modify
+-- (field data_type)
+
+alter table aaa
+modify
+(memo char(6));
+

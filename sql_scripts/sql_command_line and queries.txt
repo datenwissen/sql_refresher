@@ -1,0 +1,103 @@
+cmd
+ipconfig
+ IPv4 Address. . . . . . . . . . . : 192.168.35.___
+
+# connect to the network of the address above
+\\192.168.35.___
+
+
+install: OracleXE112_Win64.zip
+
+db pwd: 111111
+
+
+Run SDL command line
+show user;
+conn system
+enter password 111111
+alter user hr account unlock identified by 123456;
+conn hr/123456
+show user;
+
+select * from tab;
+
+conn system/111111
+
+exit
+----------------
+- sql developer 20.4.1 downoad
+- windows 64-bit with jdk 8 included
+(sqldeveloper-20.4.1.407.0006-x64.zip)
+
+sql developer, toad, sqlgate
+
+https://www.toadworld.com/
+https://www.toadworld.com/products/toad-for-oracle
+https://www.sqlgate.com/
+
+-------
+New / Select Database Connection
+
+Name: Connect to System
+user: system
+password: 111111
+
+Worksheet:
+show user;
+ctrl + enter
+
+---
+hr user
+
+select * from tab;
+
+select * from countries;
+---
+
+# Oracle data types 
+# in Korean
+https://coding-factory.tistory.com/416
+
+varchar2 preferred usually
+char only for fixed-length data
+
+1. varchar2 2. number 3. timestamp 4. date
+---
+sql script
+
+create table
+drop table sawon3
+
+commit;
+--
+to format your code: ctrl + F7
+
+--
+Run SQL Command Line
+
+set line 200;
+
+
+-- #################################
+
+cmd
+
+sqlplus /nolog 
+
+show user;
+
+conn system/111111
+
+alter user system identified by 222222;
+
+select * from dba_users;
+
+select username,password from  dba_users;
+
+#####################
+
+-- get user input for WHERE condition
+select * from emp where empno=&empno;
+
+-- get use input for TABLE name
+select * from &table where sal>2000;
