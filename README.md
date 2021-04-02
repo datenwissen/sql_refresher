@@ -1,2 +1,5 @@
 # sql_refresher
-Refresher on SQL
+
+## Day 1
+
+## Day 2
